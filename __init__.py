@@ -1,4 +1,12 @@
-from .video_manager import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+from .video_manager import VideoManager
+
+NODE_CLASS_MAPPINGS = {
+    "VideoManager": VideoManager,
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "VideoManager": "Video Manager",
+}
 
 WEB_DIRECTORY = "./web"
 
